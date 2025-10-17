@@ -1,0 +1,121 @@
+body{
+    background: #363B81;
+}
+
+h2{
+    color: #D4B01B;
+}
+
+h4{
+    color: #363B81;
+    font-size: 1.25rem;
+}
+
+#general-box{
+    height: 70px;
+}
+
+#number-box{
+    background-color: #5DB9FF;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    color: #fff;
+    font-size: 2rem;    
+}
+
+#information-box{
+    background-color: #5DB9FF;
+    color: white;
+    width: 70%;
+}
+
+#close-bottom{
+    background-color: #363B81;
+    font-size: 125%;
+    text-decoration: underline;
+}
+
+/*Diseño de ventana log-in*/
+
+#keyboard{
+    background-color: #363B81;
+    border: 2px solid #fff;
+    color: #fff;    
+}
+
+#action-btn{
+    background-color: #D4B01B;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    min-width: 100px;
+    flex: 1 1 28%;
+    width: 150px;
+}
+
+/*Diseño de ventana menu*/
+#operation-btn{
+    background-color: #5DB9FF;
+    text-transform: uppercase;
+    color: #363B81;
+    font-size: 1.75rem;
+    font-weight: 800;
+    -webkit-text-stroke: 1px #fff;
+    min-width: 200px;
+    width: 40%;
+}
+
+
+/*Diseño de ventana historial*/
+#information {
+    background-color: #5db9ff;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/*seccion para que la tabla funcione bien*/
+
+
+/* Tabla adaptada al estilo azul */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table thead tr {
+    border-bottom: 2px solid #fff;
+}
+
+.history-table th {
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+.history-table tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+#history-box {
+    background-color: #5DB9FF;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #fff;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.history-table th, .history-table td {
+    color: #000;
+}
+
